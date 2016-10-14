@@ -5,6 +5,7 @@ public class AlarmaEmergencia extends Alarma{
 	}
 	public void m2(){
 		super.m1();
+		super.m2();
 		
 	}
 	public String toString(){
