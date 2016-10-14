@@ -4,9 +4,12 @@ public class Soldado extends Militar{
 		return super.getSalario()-10000;
 	}
 	public int getDiasVacaciones(){
-		return super.getDiasVacaciones()-5;
+		return super.getDiasVacaciones()/2;
 	}
 	public void recibeOrden(){
 		System.out.println("Ordene mi General");
+	}
+	public int getHoras(){
+		return super.getHoras()*2;
 	}
 }
